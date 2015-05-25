@@ -157,5 +157,3 @@ Now comes the interesting part. We call the function saveEntry of our db.
         	res.status(400).end();
     	});
 	};
-
-### VII Handling Data
