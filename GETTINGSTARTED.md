@@ -10,3 +10,7 @@
 ### Start application
 
     npm start
+    
+### Open browser
+
+    localhost:3000/
