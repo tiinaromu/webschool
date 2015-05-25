@@ -8,5 +8,6 @@ module.exports = {
 };
 
 function lenghtOfEntries(entries) {
-    return entries.length ? entries.length : 0;
+    //return here the length of entries
+    return 0;
 }

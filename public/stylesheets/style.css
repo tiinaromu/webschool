@@ -152,20 +152,6 @@ textarea {
     top: 1px;
 }
 
-.image-container {
-    float: left;
-    width: 300px;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-image: url('/images/typewriter.jpg');
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
-    z-index: -10;
-}
-
 @media (max-width: 1300px) {
   .image-container {
     width: 200px;

@@ -4,15 +4,20 @@ $(function() {
         var message = $(this).find('.message').text();
         var lengthOfText = getLengthOfText(message);
         var text = prepareMessage(username, lengthOfText);
-        console.log(text);
-        alert(text);
+        if(text !== '') {
+            alert(text);
+        }
     });
 
     function getLengthOfText(text) {
-        return text.length;
+        // Instead of 0 write your own implementation
+        var lengthOfText = 0;
+        return lengthOfText;
     }
 
     function prepareMessage(user, count) {
-        return user + ' wrote ' + count + ' characters';
+        // Instead of '' write your own implementation
+        var stringMessage = '';
+        return stringMessage;
     }
 });
