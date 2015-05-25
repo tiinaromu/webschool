@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Livefeed</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+  </head>
+  <body>
+    <div class="image-container"></div>
+    <div class="container">
+        <h1>Livefeed</h1>
+        <p class="introduction">Follow the livefeed of Codeschool</p>
+        <div class="feed-container">
+            {{#messages}}
+                <div class="feed-element">
+                    <p class="message">{{ message }}</p>
+                    <span>by</span>
+                    <span class="username">{{ user }}</span>
+                    <span>sent at</span>
+                    <span class="timestamp">{{ time }}</span>
+                </div>
+            {{/messages}}
+        </div>
+        <div class="count-container">Total count of messages: {{ count }}</div>
+        <div class="link-container">
+            <a href="/form">Want to join? Leave your comment!</a>
+        </div>
+    </div>
+  </body>
+  <script src="/javascripts/myScripts.js"></script>
+</html>

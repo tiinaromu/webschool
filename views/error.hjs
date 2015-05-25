@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ups!</title>
+    </head>
+
+    <body>
+    <h1>Here Have a Kitten!</h1>
+
+    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg">
+    <!-- cat from https://placekitten.com/ -->
+    <h3>On the otherhand, this page is trying to say that something went wrong</h3>
+    <p>The message our backend gives us is: {{ message }}</p>
+    <p>Status code of this error is: {{ error.status }}</p>
+    <p>Here is some more detailed information on what happened:</p>
+    <pre>{{ error.stack }}</pre>
+    </body>
+</html>

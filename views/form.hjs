@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Livefeed</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="container">
+        <h1>Livefeed</h1>
+        <div class="form-container">
+        <form class="form" role="form" enctype="application/json" method="post" action="/submit" >
+            <p>Leave your comment</p>
+            <div class="form-group">
+                <input type="text" name="user" class="form-control" placeholder="Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control"  name="message" rows="2" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required></textarea>
+            </div>
+            <button id="submit" type="submit" class="btn save-button">Submit</button>
+        </form>
+        </div>
+    </div>
+  </body>
+</html>

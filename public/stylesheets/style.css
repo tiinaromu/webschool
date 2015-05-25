@@ -1,0 +1,180 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+}
+
+.image-container {
+    float: left;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url('/images/typewriter.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    z-index: -10;
+}
+
+@media (max-width: 1300px) {
+  .image-container {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .image-container {
+    display: none;
+  }
+}
+
+/* Styles of index page */
+.container {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.introduction {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.feed-container, .form-container {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 80px;
+}
+
+.feed-element {
+    overflow: hidden;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+.feed-element p {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    line-height: 18px;
+}
+
+.margin-div {
+    height: 1px;
+    background-color: #eee;
+}
+
+span, .timestamp, .username, .count {
+    font-size: 12px;
+    color: grey;
+}
+
+.link-container, .count-container {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.link-container a:visited {
+    color: blue;
+}
+
+.link-container a:hover {
+    text-decoration: underline;
+}
+
+.link-container a {
+    text-decoration: none;
+}
+
+/* Styles of form page */
+
+.form {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 20px;
+    border: 1px solid #b7bbbd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 4px;
+
+}
+
+textarea {
+    height: 70px;
+    resize: none;
+}
+
+.form p {
+    font-size: 18px;
+}
+
+.save-button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color: #f9f9f9;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+.save-button:hover {
+    background-color: #e9e9e9;
+}
+.save-button:active {
+    position: relative;
+    top: 1px;
+}
+
+.image-container {
+    float: left;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url('/images/typewriter.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    z-index: -10;
+}
+
+@media (max-width: 1300px) {
+  .image-container {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .image-container {
+    display: none;
+  }
+}
+
