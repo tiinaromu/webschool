@@ -9,6 +9,7 @@
 
 ### Start application
 
+    npm install
     npm start
     
 ### Open browser
