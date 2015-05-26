@@ -1,6 +1,6 @@
 ### Get codes
 
-    https://github.com/tiinaromu/webschool.git
+    git clone https://github.com/tiinaromu/webschool.git
 
 ### Start DB
 
