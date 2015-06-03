@@ -177,3 +177,6 @@ This code means that our application can react to our post and will do it with s
     3 No need to understand it all but try to guess at least what'll happen.
     4 If you want you could try to use our test app again in [https://sleepy-savannah-8924.herokuapp.com/](https://sleepy-savannah-8924.herokuapp.com/)
     5 for more detailed explanation go to HINTS.md
+# LICENSE
+
+[The MIT License (MIT)](LICENSE.txt)
