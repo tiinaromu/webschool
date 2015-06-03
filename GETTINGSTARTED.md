@@ -1,4 +1,4 @@
-### Get tools
+# Get tools
  
 ## MAC
     
@@ -17,6 +17,8 @@
 ## Get codes
 
     git clone https://github.com/tiinaromu/webschool.git
+
+# Running application
 
 ## Start DB
 
