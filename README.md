@@ -1,4 +1,6 @@
-# Codeschool
+# Webschool
+
+Before you start check that you have all required tools set up. See what they are from [Getting Started](GETTINGSTARTED.md). After that you are good to go. You can find all exercises below and if you need help go and see [hints](HINTS.md). Have fun!
 
 ### I What we are going to do
 
@@ -35,7 +37,7 @@ We start by adding needed things to main page. We don't yet have a way to store 
             - In our example app the introduction is 'Follow the livefeed of Codeschool' but again you can name it yourself
 
     3 Add one hardcoded comment to the page so we can see how it would look. We want to have actual message but also commenters name and time when the message was send on the page.
-        - Find element with class 'feed-container' and add div with class 'feed-element' inside it.
+        - Add div element with class 'feed-container' and add div with class 'feed-element' inside it.
         - In feed-element make paragraph tag (<p></p>) with your mock data in it.
         - Under paragraph add two span-elements (<span></span>)
         - Give the first one class username and the second one timestamp
