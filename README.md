@@ -1,6 +1,6 @@
-# Codeschool
+# Webschool
 
-Below you can find all the exercises. Before you start check that you have all required tools set up. Check them from [Getting Started](GETTINGSTARTED.md)
+Before you start check that you have all required tools set up. See what they are from [Getting Started](GETTINGSTARTED.md). After that you are good to go. You can find all exercises below and if you need help go and see [hints](HINTS.md). Have fun!
 
 ### I What we are going to do
 
