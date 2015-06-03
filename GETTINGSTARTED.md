@@ -1,17 +1,33 @@
-### Get codes
+### Get tools
+ 
+## MAC
+    
+* install [home brew](http://brew.sh/) with 
+* run in terminal:
+    brew install git
+    brew install node
+    brew install mongodb
+
+## Windows
+
+* install [node.js](https://nodejs.org/)
+* install [git](https://git-scm.com/)
+* install [mongodb](https://www.mongodb.org/)
+
+## Get codes
 
     git clone https://github.com/tiinaromu/webschool.git
 
-### Start DB
+## Start DB
 
     MAC: mongod --dbpath=/var/tmp/
     WINDOWS: mongod --dbpath=c:/temp
 
-### Start application
+## Start application
 
     npm install
     npm start
     
-### Open browser
+## Open browser
 
     localhost:3000/
