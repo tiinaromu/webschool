@@ -4,8 +4,7 @@ Before you start check that you have all required tools set up. See what they ar
 
 ### I What we are going to do
 
-We are building a twitter like web app that shows and stores short messages. I made one version of it and you can see it in action here:
-[https://sleepy-savannah-8924.herokuapp.com/](https://sleepy-savannah-8924.herokuapp.com/).
+We are building a twitter like web app that shows and stores short messages.
 
 **Exercises**
 
